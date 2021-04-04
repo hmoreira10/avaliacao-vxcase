@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+// Set your brand colors
+$cyan-1: #02aec5;
+$p-light:#5edaf9;
+$p-dark:#007193;
+$cyan: rgb(57, 220, 193);
+$brown: #505050;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
+$dark:#3a3a39;
+
+// Update Bulma's global variables
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $cyan-1;
+$link: $p-dark;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+
+// Update navbar
+$navbar-height: 4rem;
+
+// Update Modal
+$modal-background-background-color: rgba($brown, .10);
+$modal-content-width: 800px
